@@ -1,0 +1,4 @@
+github "peroper/Proj4-iOS" "a3bc061e080a0b00ce79f9b29eb3aa475c182bf6"
+github "peroper/coordinate-reference-systems-ios" "1e9c507dd4fd533ccd122a7035b2631cc32c6f8e"
+github "peroper/projections-ios" "7285ac1838302bc1b04ed51251f60edb8460c473"
+github "peroper/simple-features-ios" "a9675b7fc1a69822e3128361de2876b5bc960b86"

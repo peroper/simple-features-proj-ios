@@ -7,19 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PROJProjectionTransform.h"
-#import "SFPoint.h"
-#import "SFLineString.h"
-#import "SFPolygon.h"
-#import "SFMultiPoint.h"
-#import "SFMultiLineString.h"
-#import "SFMultiPolygon.h"
-#import "SFCircularString.h"
-#import "SFCompoundCurve.h"
-#import "SFPolyhedralSurface.h"
-#import "SFTIN.h"
-#import "SFTriangle.h"
-#import "SFGeometryCollection.h"
+#import <proj_ios/proj_ios.h>
+#import <sf_ios/sf_ios.h>
 
 /**
  * Geometry Projection Transform

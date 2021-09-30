@@ -6,8 +6,4 @@
 //  Copyright (c) 2015 NGA. All rights reserved.
 //
 
-#ifndef sf_proj_ios_sf_proj_ios_h
-#define sf_proj_ios_sf_proj_ios_h
-
-
-#endif
+#import <sf_proj_ios/SFPGeometryTransform.h>

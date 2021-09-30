@@ -3,23 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		041F18E124CB2291001311E4 /* SFPReadmeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 041F18E024CB2291001311E4 /* SFPReadmeTest.m */; };
 		041F18E424CB3762001311E4 /* SFPSwiftReadmeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F18E324CB3762001311E4 /* SFPSwiftReadmeTest.swift */; };
 		042FC6571B963FE500549A4B /* sf_proj_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042FC64B1B963FE500549A4B /* sf_proj_ios.framework */; };
-		042FC6AF1B96421E00549A4B /* BuildFile in Headers */ = {isa = PBXBuildFile; };
-		042FC6D31B96421E00549A4B /* sf-proj-ios-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 042FC69E1B96421E00549A4B /* sf-proj-ios-Prefix.pch */; };
-		042FC6D51B96453E00549A4B /* sf_proj_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 042FC6D41B96453E00549A4B /* sf_proj_ios.h */; };
-		0472B51B1C03590500496B87 /* sf-proj-ios-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 0472B51A1C03590500496B87 /* sf-proj-ios-Bridging-Header.h */; };
-		04F4560E209A47C800FC299E /* SFPGeometryTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F455FA209A47C600FC299E /* SFPGeometryTransform.h */; };
+		042FC6AF1B96421E00549A4B /* (null) in Headers */ = {isa = PBXBuildFile; };
+		042FC6D51B96453E00549A4B /* sf_proj_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 042FC6D41B96453E00549A4B /* sf_proj_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04F4560E209A47C800FC299E /* SFPGeometryTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F455FA209A47C600FC299E /* SFPGeometryTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04F4561A209A47C800FC299E /* SFPGeometryTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F45606209A47C700FC299E /* SFPGeometryTransform.m */; };
 		04F4562F209B6D1000FC299E /* SFPTestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4562D209B6D1000FC299E /* SFPTestUtils.m */; };
 		04F45632209B795F00FC299E /* SFPProjectionTransformTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F45631209B795F00FC299E /* SFPProjectionTransformTestCase.m */; };
-		455990E02D380E531EE4ACDC /* libPods-sf-proj-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2802BAC0915BABF2D048D9 /* libPods-sf-proj-ios.a */; };
-		B5D94958E350F092F31540ED /* libPods-sf-proj-iosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 499642A447440D35F38311C9 /* libPods-sf-proj-iosTests.a */; };
+		C42094652705B44400148BDB /* proj_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42094642705B44400148BDB /* proj_ios.xcframework */; };
+		C42094692705B44700148BDB /* sf_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42094682705B44700148BDB /* sf_ios.xcframework */; };
+		C4381EAE27072F5700161743 /* proj4.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4381EAA2707270900161743 /* proj4.xcframework */; };
+		C4381EB127072F6B00161743 /* crs_ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C420945A2705B13000148BDB /* crs_ios.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,21 +41,20 @@
 		042FC64F1B963FE500549A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		042FC6561B963FE500549A4B /* sf_proj_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sf_proj_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042FC65C1B963FE500549A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		042FC69E1B96421E00549A4B /* sf-proj-ios-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sf-proj-ios-Prefix.pch"; sourceTree = "<group>"; };
 		042FC6D41B96453E00549A4B /* sf_proj_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sf_proj_ios.h; sourceTree = "<group>"; };
-		0472B51A1C03590500496B87 /* sf-proj-ios-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sf-proj-ios-Bridging-Header.h"; sourceTree = "<group>"; };
 		04F455FA209A47C600FC299E /* SFPGeometryTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPGeometryTransform.h; sourceTree = "<group>"; };
 		04F45606209A47C700FC299E /* SFPGeometryTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPGeometryTransform.m; sourceTree = "<group>"; };
 		04F4562D209B6D1000FC299E /* SFPTestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPTestUtils.m; sourceTree = "<group>"; };
 		04F4562E209B6D1000FC299E /* SFPTestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPTestUtils.h; sourceTree = "<group>"; };
 		04F45630209B795F00FC299E /* SFPGeometryTransformTestCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFPGeometryTransformTestCase.h; sourceTree = "<group>"; };
 		04F45631209B795F00FC299E /* SFPProjectionTransformTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFPProjectionTransformTestCase.m; sourceTree = "<group>"; };
-		499642A447440D35F38311C9 /* libPods-sf-proj-iosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sf-proj-iosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FD24597D37A9C5402B3279A /* Pods-sf-proj-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sf-proj-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sf-proj-ios/Pods-sf-proj-ios.debug.xcconfig"; sourceTree = "<group>"; };
-		6179C77188B4A0E8D4DEDBEB /* Pods-sf-proj-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sf-proj-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sf-proj-iosTests/Pods-sf-proj-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B17E59AE80997CC09DD740D6 /* Pods-sf-proj-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sf-proj-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sf-proj-iosTests/Pods-sf-proj-iosTests.release.xcconfig"; sourceTree = "<group>"; };
-		CF2802BAC0915BABF2D048D9 /* libPods-sf-proj-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sf-proj-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDE9611B54A8A4AC3941F59D /* Pods-sf-proj-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sf-proj-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-sf-proj-ios/Pods-sf-proj-ios.release.xcconfig"; sourceTree = "<group>"; };
+		C42094562705B11600148BDB /* proj_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = proj_ios.framework; path = Carthage/Build/iOS/proj_ios.framework; sourceTree = "<group>"; };
+		C420945A2705B13000148BDB /* crs_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = crs_ios.xcframework; path = Carthage/Build/crs_ios.xcframework; sourceTree = "<group>"; };
+		C420945E2705B13E00148BDB /* sf_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sf_ios.framework; path = Carthage/Build/iOS/sf_ios.framework; sourceTree = "<group>"; };
+		C42094612705B14D00148BDB /* proj4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = proj4.framework; path = Carthage/Build/iOS/proj4.framework; sourceTree = "<group>"; };
+		C42094642705B44400148BDB /* proj_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = proj_ios.xcframework; path = Carthage/Build/proj_ios.xcframework; sourceTree = "<group>"; };
+		C42094682705B44700148BDB /* sf_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = sf_ios.xcframework; path = Carthage/Build/sf_ios.xcframework; sourceTree = "<group>"; };
+		C4381EAA2707270900161743 /* proj4.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = proj4.xcframework; path = Carthage/Build/proj4.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +62,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455990E02D380E531EE4ACDC /* libPods-sf-proj-ios.a in Frameworks */,
+				C4381EB127072F6B00161743 /* crs_ios.xcframework in Frameworks */,
+				C42094692705B44700148BDB /* sf_ios.xcframework in Frameworks */,
+				C4381EAE27072F5700161743 /* proj4.xcframework in Frameworks */,
+				C42094652705B44400148BDB /* proj_ios.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +74,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				042FC6571B963FE500549A4B /* sf_proj_ios.framework in Frameworks */,
-				B5D94958E350F092F31540ED /* libPods-sf-proj-iosTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +86,6 @@
 				042FC64D1B963FE500549A4B /* sf-proj-ios */,
 				042FC65A1B963FE500549A4B /* sf-proj-iosTests */,
 				042FC64C1B963FE500549A4B /* Products */,
-				987AE7974D8B4ECED7B3FB6B /* Pods */,
 				63206AE083C9F99B2058A9EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -105,9 +105,7 @@
 				042FC6D41B96453E00549A4B /* sf_proj_ios.h */,
 				04F455FA209A47C600FC299E /* SFPGeometryTransform.h */,
 				04F45606209A47C700FC299E /* SFPGeometryTransform.m */,
-				042FC69E1B96421E00549A4B /* sf-proj-ios-Prefix.pch */,
 				042FC64E1B963FE500549A4B /* Supporting Files */,
-				0472B51A1C03590500496B87 /* sf-proj-ios-Bridging-Header.h */,
 			);
 			path = "sf-proj-ios";
 			sourceTree = "<group>";
@@ -147,21 +145,15 @@
 		63206AE083C9F99B2058A9EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				499642A447440D35F38311C9 /* libPods-sf-proj-iosTests.a */,
-				CF2802BAC0915BABF2D048D9 /* libPods-sf-proj-ios.a */,
+				C4381EAA2707270900161743 /* proj4.xcframework */,
+				C42094682705B44700148BDB /* sf_ios.xcframework */,
+				C42094642705B44400148BDB /* proj_ios.xcframework */,
+				C42094612705B14D00148BDB /* proj4.framework */,
+				C420945E2705B13E00148BDB /* sf_ios.framework */,
+				C420945A2705B13000148BDB /* crs_ios.xcframework */,
+				C42094562705B11600148BDB /* proj_ios.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		987AE7974D8B4ECED7B3FB6B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6179C77188B4A0E8D4DEDBEB /* Pods-sf-proj-iosTests.debug.xcconfig */,
-				B17E59AE80997CC09DD740D6 /* Pods-sf-proj-iosTests.release.xcconfig */,
-				4FD24597D37A9C5402B3279A /* Pods-sf-proj-ios.debug.xcconfig */,
-				DDE9611B54A8A4AC3941F59D /* Pods-sf-proj-ios.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,11 +163,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0472B51B1C03590500496B87 /* sf-proj-ios-Bridging-Header.h in Headers */,
-				042FC6AF1B96421E00549A4B /* BuildFile in Headers */,
+				042FC6AF1B96421E00549A4B /* (null) in Headers */,
 				04F4560E209A47C800FC299E /* SFPGeometryTransform.h in Headers */,
 				042FC6D51B96453E00549A4B /* sf_proj_ios.h in Headers */,
-				042FC6D31B96421E00549A4B /* sf-proj-ios-Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,12 +176,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 042FC6611B963FE500549A4B /* Build configuration list for PBXNativeTarget "sf-proj-ios" */;
 			buildPhases = (
-				EEA6042CA950F54D06F509F1 /* [CP] Check Pods Manifest.lock */,
 				042FC6461B963FE500549A4B /* Sources */,
 				042FC6471B963FE500549A4B /* Frameworks */,
 				042FC6481B963FE500549A4B /* Headers */,
 				042FC6491B963FE500549A4B /* Resources */,
-				EF8A5FA095CAB5C5BACE1655 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,42 +280,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EEA6042CA950F54D06F509F1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sf-proj-ios-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EF8A5FA095CAB5C5BACE1655 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sf-proj-ios/Pods-sf-proj-ios-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/proj-ios/proj-ios.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/proj-ios.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sf-proj-ios/Pods-sf-proj-ios-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -481,16 +433,23 @@
 		};
 		042FC6621B963FE500549A4B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FD24597D37A9C5402B3279A /* Pods-sf-proj-ios.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "sf-proj-ios/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = mil.nga.sf.proj;
 				PRODUCT_NAME = sf_proj_ios;
 				SKIP_INSTALL = YES;
@@ -499,16 +458,23 @@
 		};
 		042FC6631B963FE500549A4B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDE9611B54A8A4AC3941F59D /* Pods-sf-proj-ios.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "sf-proj-ios/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = mil.nga.sf.proj;
 				PRODUCT_NAME = sf_proj_ios;
 				SKIP_INSTALL = YES;
@@ -517,7 +483,6 @@
 		};
 		042FC6651B963FE500549A4B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6179C77188B4A0E8D4DEDBEB /* Pods-sf-proj-iosTests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -529,7 +494,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "sf-proj-iosTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_NAME = sf_proj_iosTests;
 				SWIFT_OBJC_BRIDGING_HEADER = "sf-proj-iosTests/sf-proj-iosTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -539,7 +508,6 @@
 		};
 		042FC6661B963FE500549A4B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B17E59AE80997CC09DD740D6 /* Pods-sf-proj-iosTests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -547,7 +515,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "sf-proj-iosTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_NAME = sf_proj_iosTests;
 				SWIFT_OBJC_BRIDGING_HEADER = "sf-proj-iosTests/sf-proj-iosTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

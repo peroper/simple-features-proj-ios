@@ -7,7 +7,7 @@
 //
 
 #import "SFPGeometryTransform.h"
-#import "PROJLocationCoordinate3D.h"
+#import <sf_proj_ios/sf_proj_ios.h>
 
 @implementation SFPGeometryTransform
 

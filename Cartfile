@@ -1,0 +1,5 @@
+
+github "peroper/simple-features-ios" "carthage-support"
+github "peroper/projections-ios" "carthage-support"
+github "peroper/coordinate-reference-systems-ios" "carthage-support"
+github "peroper/Proj4-iOS" "carthage-support"
