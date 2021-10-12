@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "projections-ios",
+        "repositoryURL": "git@github.com:peroper/projections-ios.git",
+        "state": {
+          "branch": "spm-support",
+          "revision": "338bad7dc797708dab3ce7afb1145e5fc31145ee",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
